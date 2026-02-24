@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "wentest",
+  "version": "0.1.0",
+  "name": "Echoes of the Sky",
+  "description": "Fabric 1.20.1 prototype for wind flight with Trinkets belt slot.",
+  "authors": ["mc_mod"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.wentest.WentestMod"
+    ],
+    "client": [
+      "com.wentest.client.WentestClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "trinkets": "*"
+  }
+}
