@@ -1,0 +1,19 @@
+# Build output
+build/
+out/
+
+# Gradle
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.class
+
+# Fabric Loom cache
+.loom-cache/
+
+# Local run data
+run/

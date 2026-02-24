@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "mc_mod",
+  "version": "${version}",
+  "name": "McMod",
+  "description": "A Minecraft Fabric mod.",
+  "authors": [
+    "Save-xi"
+  ],
+  "contact": {
+    "sources": "https://github.com/Save-xi/mc_mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.savexi.mcmod.McMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
