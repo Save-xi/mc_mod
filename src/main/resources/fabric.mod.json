@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "wentest",
+  "version": "${version}",
+  "name": "Echoes of the Sky",
+  "description": "Server-authoritative wind-flight prototype for Fabric 1.20.1.",
+  "authors": [
+    "mc_mod"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.wentest.WentestMod"
+    ],
+    "client": [
+      "com.wentest.client.WentestClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "~1.20.1",
+    "trinkets": "*"
+  }
+}
