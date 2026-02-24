@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "wentest:wind_howl_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 184764321,
+    "spacing": 48,
+    "separation": 16,
+    "spread_type": "triangular"
+  }
+}

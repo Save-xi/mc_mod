@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wentest",
+  "version": "${version}",
+  "name": "Echoes of the Sky",
+  "description": "Wind flight, archaeology, and worldgen scaffold for Fabric 1.20.1.",
+  "authors": ["Codex"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.wentest.WentestMod"],
+    "client": ["com.wentest.client.WentestClient"]
+  },
+  "mixins": ["wentest.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "trinkets": "*"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:item", "name": "wentest:gale_core_shard", "weight": 8},
+        {"type": "minecraft:item", "name": "minecraft:stick", "weight": 12},
+        {"type": "minecraft:item", "name": "wentest:wind_crystal", "weight": 3},
+        {"type": "minecraft:item", "name": "minecraft:emerald", "weight": 2}
+      ]
+    }
+  ]
+}
